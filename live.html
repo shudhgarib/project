@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<style>
+  body {
+    background-color: rgb(222, 214, 227);
+    }
+  h1{
+    text-decoration: none;
+  }
+  .rect {
+
+    height: 160px;
+    width: 800px;
+    border-radius: 10%;
+    color: #ede5e5;
+    text-align: center;
+
+    /* blinking */
+  }
+
+  .activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+  }
+
+  .blink {
+    color: red;
+    margin-right: 0.5rem;
+    animation: blink 2s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+
+  }
+
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  .noblink {
+    margin-right: 0.5rem;
+  }
+</style>
+<title>Live Matches</title>
+</head>
+
+<body>
+
+  </div>
+  
+  <div align="center">
+    <div class="rect">
+      <!-- blinking -->
+      <div class="activity lead">
+        <div class="blink">🔴</div>
+        <div>
+          <b></b>
+        </div>
+      </div>
+
+      <div class="activity lead">
+        <div class="noblink"></div>
+        <!-- blinking -->
+        <a href="playing11.html">
+          <h1>Gujrat VS Mumbai</h1>
+         
+        </a>
+
+      </div>
+    </div>
+    <div align="center">
+      <div class="rect">
+        <!-- blinking -->
+        <div class="activity lead">
+          <div class="blink">🔴</div>
+
+        </div>
+
+        <div class="activity lead">
+          <div class="noblink"></div>
+          <!-- blinking -->
+          <a href="playing11.html">
+            <h1>Hinzawadi VS lohegaon</h1>
+          </a>
+        </div>
+      </div>
+</body>
+
+</html>

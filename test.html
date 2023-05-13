@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<style>
+    .activity {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+
+.blink {
+    color : red;
+    margin-right: 0.5rem;
+      animation: blink 2s steps(5, start) infinite;
+      -webkit-animation: blink 1s steps(5, start) infinite;
+    }
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-webkit-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+.noblink {
+   margin-right: 0.5rem;
+    }
+</style>
+<head>
+
+</head>
+<body>
+<div class="activity lead">
+    <div class="blink">🔴</div>
+    <div>
+      <b></b> 
+      </div>
+    </div>
+    
+    <div class="activity lead">
+    <div class="noblink"></div>
+    <div>
+      
+      </div>
+    </div>
+    </body>
+    </html>

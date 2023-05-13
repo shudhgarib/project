@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+     body{
+    
+    background: url("bcg3.jpg");
+    background-size: 90%; 
+    background-position: -400px 0px;
+    } 
+    div.main{
+    
+    width: 400px;
+    margin: 100px auto 0px auto; 
+    }
+    h2{     
+    text-align: center;
+    padding: 20px; 
+    font-family: sans-serif;
+    }
